@@ -3,8 +3,8 @@ import numpy as np
 import cv2
 import noise
 
-ROBOT = "go2"
-INPUT_SCENE_PATH = "./scene.xml"
+ROBOT = "g1"
+INPUT_SCENE_PATH = "../unitree_robots/" + ROBOT + "/scene.xml"
 OUTPUT_SCENE_PATH = "../unitree_robots/" + ROBOT + "/scene_terrain.xml"
 
 
